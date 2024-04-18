@@ -9,3 +9,20 @@ La declaración switch es una estructura de control de flujo que permite evaluar
 ##¿Cuál es la diferencia entre un array y un objeto en JavaScript? Proporciona un ejemplo de cada uno.
 
 un array es una estructura de datos que permite almacenar múltiples valores en una sola variable
+let frutas = ["manzana", "banana", "naranja"];
+console.log(frutas[0])
+##un objeto es una estructura de datos que permite almacenar múltiples valores en una sola variable
+let persona = {
+    nombre: "Juan",
+    edad: 30,
+    ciudad: "Madrid"
+  };
+  console.log(persona.nombre)
+##Explica cómo funciona el operador ternario en JavaScript y proporciona un ejemplo de su
+uso.
+El operador ternario es una expresión para simplificar una instrucción if-else.
+ 
+let numero = 7;
+let resultado = numero % 2 === 0? "par" : "impar";
+ console.log(resultado);
+
