@@ -1,6 +1,6 @@
 ##Explica la diferencia entre los operadores == y === en JavaScript.
 
-La diferencia entre estos operadores es que == realiza una comparación de valores sin tener en cuenta el tipo de datos, mientras que === compara tanto el valor como el tipo de datos.
+La diferencia entre estos operadores es que == devuelve true si los operadores son iguales, mientras que === devuelve true son iguales y del mismo tipo.
 
 ##¿Qué es una declaración switch en JavaScript y cuándo es útil su uso?
 
