@@ -1,0 +1,11 @@
+##Explica la diferencia entre los operadores == y === en JavaScript.
+
+La diferencia entre estos operadores es que == realiza una comparación de valores sin tener en cuenta el tipo de datos, mientras que === compara tanto el valor como el tipo de datos.
+
+##¿Qué es una declaración switch en JavaScript y cuándo es útil su uso?
+
+La declaración switch es una estructura de control de flujo que permite evaluar una expresión y ejecutar un bloque de código 
+
+##¿Cuál es la diferencia entre un array y un objeto en JavaScript? Proporciona un ejemplo de cada uno.
+
+un array es una estructura de datos que permite almacenar múltiples valores en una sola variable
