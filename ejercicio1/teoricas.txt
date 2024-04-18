@@ -1,6 +1,6 @@
 ##Explica la diferencia entre los operadores == y === en JavaScript.
 
-La diferencia entre estos operadores es que == realiza una comparación de valores sin tener en cuenta el tipo de datos, mientras que === compara tanto el valor como el tipo de datos.
+La diferencia entre estos operadores es que == devuelve true si los operadores son iguales, mientras que === devuelve true son iguales y del mismo tipo.
 
 ##¿Qué es una declaración switch en JavaScript y cuándo es útil su uso?
 
@@ -9,3 +9,30 @@ La declaración switch es una estructura de control de flujo que permite evaluar
 ##¿Cuál es la diferencia entre un array y un objeto en JavaScript? Proporciona un ejemplo de cada uno.
 
 un array es una estructura de datos que permite almacenar múltiples valores en una sola variable
+let frutas = ["manzana", "banana", "naranja"];
+console.log(frutas[0])
+##un objeto es una estructura de datos que permite almacenar múltiples valores en una sola variable
+let persona = {
+    nombre: "Juan",
+    edad: 30,
+    ciudad: "Madrid"
+  };
+  console.log(persona.nombre)
+##Explica cómo funciona el operador ternario en JavaScript y proporciona un ejemplo de su
+uso.
+El operador ternario es una expresión para simplificar una instrucción if-else.
+ 
+let numero = 7;
+let resultado = numero % 2 === 0? "par" : "impar";
+ console.log(resultado);
+##¿Qué es un operador de comparación en JavaScript? Proporciona ejemplos de al menos dos
+operadores de comparación y explica cómo funcionan.
+un operador de comparación es un operador que se utiliza para comparar dos valores 
+
+##este es el de igualdad
+console.log(1 == "1"); // Salida: true
+console.log(1 === "1"); // Salida: false
+
+##este es el de desigualdad
+console.log(1!= "1"); // Salida: false
+console.log(1!== "1"); // Salida: true
