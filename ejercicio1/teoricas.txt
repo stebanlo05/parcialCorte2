@@ -25,4 +25,14 @@ El operador ternario es una expresión para simplificar una instrucción if-else
 let numero = 7;
 let resultado = numero % 2 === 0? "par" : "impar";
  console.log(resultado);
+##¿Qué es un operador de comparación en JavaScript? Proporciona ejemplos de al menos dos
+operadores de comparación y explica cómo funcionan.
+un operador de comparación es un operador que se utiliza para comparar dos valores 
 
+##este es el de igualdad
+console.log(1 == "1"); // Salida: true
+console.log(1 === "1"); // Salida: false
+
+##este es el de desigualdad
+console.log(1!= "1"); // Salida: false
+console.log(1!== "1"); // Salida: true
