@@ -4,7 +4,7 @@ let adivinado = false;
 
 while (!adivinado && intentos < 10) {
   let numeroUsuario = parseInt("Adivina el número secreto entre 1 y 100");
-  numeroUsuario = Number(numeroUsuario);
+  numeroUsuario = parseFloat(numeroUsuario);
 
   if (numeroUsuario === numeroSecreto) {
     adivinado = true;
